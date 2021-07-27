@@ -1,0 +1,64 @@
+@import 'vars';
+.paragraph-header-home{
+  background:url('../img/fons.jpg') no-repeat center center;
+  background-size:cover;
+  padding-bottom:clamp(20px, 3vw, 50px);
+  margin-top:-80px;
+  padding-top:200px;
+  text-align: center;
+  *{
+    color:#fff;
+  }
+  h1{
+    font-weight:600;
+    font-size:68px;
+    text-transform: uppercase;
+    padding-bottom:20px;
+  }
+  .subtitle{
+    font-size:18px;
+    padding-bottom:20px;
+  }
+  .video{
+    padding:20px 0;
+  }
+}
+
+.paragraph-image-text{
+  padding-top:clamp(20px, 4vw, 60px);
+  padding-bottom:clamp(20px, 4vw, 60px);
+  img{
+    border-radius:50%;
+  }
+  .col-image{
+    
+    position:relative;
+    &:after{
+      background:url('../img/icon-arrow-down.svg') no-repeat bottom right;
+      position:absolute;
+      z-index:2;
+      width:150px;
+      height:200px;
+      content:"";
+      bottom:-20px;
+      right:40px;
+    }
+  }
+}
+
+.paragraph-grafic{
+  padding-top:clamp(20px, 4vw, 50px);
+  background-color:$grey;
+  h2{
+    padding:20px 0;
+  }
+}
+
+.paragraph-actualidad-home{
+  padding-top:clamp(20px, 4vw, 50px);
+  padding-bottom:clamp(20px, 4vw, 50px);
+  background-color:$black;
+  *{
+    color:#fff;
+  }
+}
