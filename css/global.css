@@ -41,6 +41,7 @@ body, html {
 
 p {
   line-height: 1.4em;
+  margin-bottom: 25px;
 }
 
 ol, ul {
@@ -74,10 +75,46 @@ h1 {
 h2 {
   font-weight: 600;
   font-size: 40px;
+  line-height: 1.2em;
 }
 
 h3 {
   font-weight: 600;
+}
+
+ul li {
+  position: relative;
+  padding-left: 30px;
+  margin: 15px 0;
+  line-height: 1.4em;
+}
+
+ul li:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #54D6C6;
+  position: absolute;
+  left: 0;
+  border-radius: 50%;
+  top: 10px;
+}
+
+.btn-cta, .show-more-list {
+  text-decoration: none;
+  border: 1px solid #54D6C6;
+  padding: 15px 30px;
+  font-weight: 600;
+  display: inline-block;
+  margin: 10px 0;
+  color: #54D6C6;
+  font-size: 18px;
+}
+
+.show-more-list {
+  font-weight: 300;
+  padding-right: 50px;
+  margin-top: 30px;
 }
 
 #header {
@@ -95,6 +132,41 @@ h3 {
   padding-left: 80px;
 }
 
+#footer .col-newsletter * {
+  color: #fff;
+}
+
+#footer .col-newsletter h2 {
+  padding-bottom: 20px;
+}
+
+#footer .col-newsletter form input[type=email] {
+  width: 100%;
+  display: block;
+  padding: 15px;
+  border: none;
+}
+
+#footer .col-newsletter form .checkbox.subfield {
+  font-size: 14px;
+  padding-top: 10px;
+  display: block;
+}
+
+#footer .col-newsletter form .checkbox.subfield input {
+  border: 0;
+}
+
+#footer .col-newsletter form input[type=submit] {
+  display: inline-block;
+  margin-top: 30px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  padding: 15px;
+  font-weight: 600;
+  font-family: 'Montserrat';
+}
+
 #footer .xxss {
   padding-top: 30px;
   display: -webkit-box;
@@ -104,6 +176,39 @@ h3 {
 
 #footer .xxss li {
   padding: 10px;
+}
+
+#footer .xxss li:before {
+  display: none;
+  padding-left: 0;
+}
+
+.basic-page #header {
+  background: url("../img/fons.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 600px;
+}
+
+.basic-page #main {
+  margin-top: -400px;
+}
+
+.basic-page .paragraph-grafic h2 {
+  text-align: center;
+}
+
+.header-basic-page {
+  padding-bottom: 80px;
+}
+
+.header-basic-page * {
+  color: #fff;
+  text-align: center;
+}
+
+.header-basic-page h1 {
+  padding-bottom: 30px;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=global.css.map */

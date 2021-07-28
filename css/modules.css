@@ -11,6 +11,15 @@
   color: #fff;
 }
 
+.paragraph-header-home .btn-cta {
+  color: #54D6C6;
+}
+
+.paragraph-header-home .btn-cta:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
 .paragraph-header-home .pre-title {
   font-weight: 600;
   font-size: 68px;
@@ -53,17 +62,6 @@
   margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
-}
-
-.paragraph-header-home .btn-cta {
-  text-decoration: none;
-  border: 1px solid #54D6C6;
-  padding: 15px 30px;
-  font-weight: 600;
-  display: inline-block;
-  margin: 10px 0;
-  color: #54D6C6;
-  font-size: 18px;
 }
 
 .paragraph-image-text {
@@ -124,6 +122,10 @@
   padding-top: clamp(20px, 4vw, 60px);
 }
 
+.paragraph-grafic + .paragraph-grafic {
+  margin-top: 0;
+}
+
 .paragraph-actualidad-home {
   padding-top: clamp(20px, 6vw, 90px);
   padding-bottom: clamp(20px, 6vw, 100px);
@@ -160,33 +162,54 @@
   color: #fff;
 }
 
-.paragraph-highlight-green {
-  background-color: #54D6C6;
+.paragraph-highlight {
   padding-top: clamp(30px, 7vw, 100px);
   padding-bottom: clamp(30px, 7vw, 100px);
 }
 
-.paragraph-highlight-green * {
-  color: #fff;
+.paragraph-highlight * {
+  color: #040405;
   text-align: center;
 }
 
-.paragraph-highlight-green h2 {
+.paragraph-highlight .btn-cta {
+  color: #54D6C6;
+}
+
+.paragraph-highlight .btn-cta:hover {
+  color: #040405;
+  border-color: #040405 !important;
+}
+
+.paragraph-highlight h2 {
   text-align: center;
 }
 
-.paragraph-highlight-green .content {
+.paragraph-highlight .content {
   padding-top: 30px;
+}
+
+.paragraph-highlight.green {
+  background-color: #54D6C6;
+}
+
+.paragraph-highlight.green * {
+  color: #fff;
+}
+
+.paragraph-highlight.green .btn-cta {
+  border-color: #fff;
 }
 
 .paragraph-partners {
   padding-top: clamp(30px, 7vw, 100px);
-  padding-bottom: clamp(30px, 7vw, 100px);
+  padding-bottom: clamp(30px, 8vw, 120px);
+  overflow: hidden;
 }
 
 .paragraph-partners h2 {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .paragraph-partners .slick-prev, .paragraph-partners .slick-next {
@@ -194,18 +217,93 @@
   height: 70px;
   width: 70px;
   border: 0;
-  text-indent: -3000px;
+  text-indent: -4000px;
   position: absolute;
-  right: -20px;
-  z-index: 10;
+  right: -90px;
+  z-index: 20;
   top: 0;
+  cursor: pointer;
+}
+
+.paragraph-partners .slick-prev:hover, .paragraph-partners .slick-next:hover {
+  background: url("../img/btn-slick-hover.svg") no-repeat center center;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.paragraph-partners .slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.paragraph-partners .slick-slide {
+  text-align: center;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  height: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.paragraph-partners .slick-slide img {
+  display: block;
+  width: 90%;
 }
 
 .paragraph-partners .slick-prev {
   right: auto;
-  left: -100px;
+  left: -90px;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
+}
+
+.paragraph-partners .slick-prev:hover {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  background: url("../img/btn-slick-hover.svg") no-repeat center center;
+}
+
+.paragraph-text-two-cols {
+  padding-top: clamp(30px, 7vw, 100px);
+  padding-bottom: clamp(30px, 4vw, 70px);
+}
+
+.paragraph-list-desplegable {
+  padding-top: clamp(30px, 7vw, 100px);
+  padding-bottom: clamp(30px, 6vw, 80px);
+}
+
+.paragraph-list-desplegable .list {
+  width: 100%;
+  padding-top: clamp(30px, 3vw, 50px);
+}
+
+.paragraph-list-desplegable .list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.paragraph-list-desplegable .list ul li {
+  width: 50%;
+  padding: 0 40px;
+}
+
+.paragraph-list-desplegable .list ul li.hide {
+  display: none;
+}
+
+.paragraph-list-desplegable .list ul li:before {
+  left: 10px;
 }
 
 /*# sourceMappingURL=modules.css.map */
