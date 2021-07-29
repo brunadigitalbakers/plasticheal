@@ -124,8 +124,8 @@ ul{
     display: inline-block;
     padding:3px;
     height:10px;
-    border-width: 0 3px 3px 0;
-    border:1px solid $green;
+    border: solid $green;
+    border-width: 0 1px 1px 0;
     transform: rotate(45deg);
     right:18px;
     top:18px;
@@ -169,6 +169,9 @@ ul{
         input{
           border:0;
         }
+        span{
+          padding-left:10px;
+        }
       }
       input[type=submit]{
         display:inline-block;
@@ -178,6 +181,11 @@ ul{
         padding:15px;
         font-weight: 600;
         font-family: 'Montserrat';
+        cursor:pointer;
+        &:hover{
+          color:$black;
+          border-color:$black;
+        }
       }
     }
   }

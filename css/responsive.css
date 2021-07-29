@@ -21,13 +21,32 @@
     padding-top: 30px;
   }
   .paragraph-image-text {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   .paragraph-image-text .col-image {
     margin: 30px 0;
     -webkit-box-ordinal-group: 11;
         -ms-flex-order: 10;
             order: 10;
+  }
+  .paragraph-list-desplegable .list ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .paragraph-list-desplegable .list ul li {
+    width: 100%;
+  }
+  .paragraph-partners .slick-prev, .paragraph-partners .slick-next {
+    display: none !important;
+  }
+  #footer .col-newsletter {
+    padding-left: 15px;
+    padding-bottom: 40px;
+  }
+  #footer .xxss {
+    padding-top: 10px;
   }
 }
 

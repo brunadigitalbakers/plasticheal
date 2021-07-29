@@ -209,6 +209,19 @@
   .slick-track{
     display:flex;
   }
+  .slick-dots{
+    display:flex!important;
+    justify-content: center;
+    button{
+      display:none;
+    }
+    li{
+      &:before{
+        width:15px;
+        height:15px;
+      }
+    }
+  }
   .slick-slide{
     text-align: center;
     display: flex!important;
@@ -235,6 +248,9 @@
 .paragraph-text-two-cols{
   padding-top:clamp(30px, 7vw, 100px);
   padding-bottom:clamp(30px, 4vw, 70px);
+  h2{
+    padding-bottom:30px;
+  }
 }
 
 .paragraph-list-desplegable{

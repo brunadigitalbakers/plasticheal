@@ -237,6 +237,24 @@
   display: flex;
 }
 
+.paragraph-partners .slick-dots {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.paragraph-partners .slick-dots button {
+  display: none;
+}
+
+.paragraph-partners .slick-dots li:before {
+  width: 15px;
+  height: 15px;
+}
+
 .paragraph-partners .slick-slide {
   text-align: center;
   display: -webkit-box !important;
@@ -272,6 +290,10 @@
 .paragraph-text-two-cols {
   padding-top: clamp(30px, 7vw, 100px);
   padding-bottom: clamp(30px, 4vw, 70px);
+}
+
+.paragraph-text-two-cols h2 {
+  padding-bottom: 30px;
 }
 
 .paragraph-list-desplegable {
