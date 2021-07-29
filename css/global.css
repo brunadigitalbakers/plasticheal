@@ -86,14 +86,14 @@ h3 {
   font-weight: 600;
 }
 
-ul li {
+main ul li {
   position: relative;
   padding-left: 30px;
   margin: 15px 0;
   line-height: 1.4em;
 }
 
-ul li:before {
+main ul li:before {
   content: "";
   width: 10px;
   height: 10px;
@@ -216,6 +216,48 @@ ul li:before {
 #footer .xxss li:before {
   display: none;
   padding-left: 0;
+}
+
+#footer .baked {
+  font-size: 14px;
+}
+
+#footer .baked * {
+  color: #fff;
+}
+
+#footer .baked p {
+  margin: 0;
+  padding: 0;
+}
+
+#footer .baked a {
+  text-decoration: none;
+  color: #54D6C6;
+}
+
+#footer .menu-legal * {
+  color: #fff;
+  font-size: 14px;
+}
+
+#footer .menu-legal a {
+  text-decoration: none;
+}
+
+#footer .menu-legal ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#footer .menu-legal ul li {
+  margin-right: 15px;
+}
+
+#footer .container-legals {
+  padding-top: 50px;
+  padding-right: 30px;
 }
 
 .basic-page #header {

@@ -271,7 +271,8 @@
 
 .paragraph-partners .slick-slide img {
   display: block;
-  width: 90%;
+  max-width: 90%;
+  max-height: 60px;
 }
 
 .paragraph-partners .slick-prev {
@@ -326,6 +327,41 @@
 
 .paragraph-list-desplegable .list ul li:before {
   left: 10px;
+}
+
+.paragraph-documents {
+  background: url("../img/finish-inst.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: clamp(30px, 7vw, 100px);
+  padding-bottom: clamp(30px, 6vw, 80px);
+}
+
+.paragraph-documents h2 {
+  color: #fff;
+  padding-bottom: 40px;
+}
+
+.paragraph-documents ul li {
+  padding-left: 0;
+  margin-bottom: 35px;
+}
+
+.paragraph-documents ul li:before {
+  display: none;
+}
+
+.paragraph-documents ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding-right: 50px;
+  background: url("../img/download-icon.svg") no-repeat right center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.paragraph-documents ul li a:hover {
+  color: #54D6C6;
+  background: url("../img/download-icon-hover.svg") no-repeat right center;
 }
 
 /*# sourceMappingURL=modules.css.map */
