@@ -124,6 +124,7 @@
 
 .paragraph-grafic + .paragraph-grafic {
   margin-top: 0;
+  padding-top: 20px;
 }
 
 .paragraph-actualidad-home {
