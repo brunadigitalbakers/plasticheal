@@ -250,6 +250,19 @@ main ul{
       text-align: center;
     }
   }
+  &.no-subtitle{
+    #header{
+      background:url('../img/fons.jpg') no-repeat center center;
+      background-size:cover;
+      min-height:300px;
+    }
+    #main{
+      margin-top:-150px;
+    }
+    .header-basic-page{
+      padding-bottom:40px;
+    }
+  }
 }
 
 .header-basic-page{
@@ -262,6 +275,6 @@ main ul{
     padding-bottom:30px;
     text-transform: uppercase;
   }
-  
+
 }
 

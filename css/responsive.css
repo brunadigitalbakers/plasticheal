@@ -5,6 +5,10 @@
   h2 {
     font-size: 25px;
   }
+  h1 {
+    font-size: 40px;
+    line-height: 45px;
+  }
   .paragraph-actualidad-home h3 {
     font-size: 20px;
   }
@@ -47,6 +51,9 @@
   }
   #footer .xxss {
     padding-top: 10px;
+  }
+  .menu-legal {
+    padding-bottom: 20px;
   }
 }
 

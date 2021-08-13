@@ -274,6 +274,20 @@ main ul li:before {
   text-align: center;
 }
 
+.basic-page.no-subtitle #header {
+  background: url("../img/fons.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 300px;
+}
+
+.basic-page.no-subtitle #main {
+  margin-top: -150px;
+}
+
+.basic-page.no-subtitle .header-basic-page {
+  padding-bottom: 40px;
+}
+
 .header-basic-page {
   padding-bottom: 80px;
 }
