@@ -298,6 +298,11 @@
   padding-bottom: 30px;
 }
 
+.paragraph-text-two-cols h3 {
+  padding-bottom: 15px;
+  font-size: 23px;
+}
+
 .paragraph-list-desplegable {
   padding-top: clamp(30px, 7vw, 100px);
   padding-bottom: clamp(30px, 6vw, 80px);
