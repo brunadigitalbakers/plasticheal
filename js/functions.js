@@ -1,4 +1,6 @@
-$( '.swipebox' ).swipebox();
+$( '.swipebox' ).swipebox({
+  videoMaxWidth: 950
+});
 
 $('.multiple-items').slick({
   infinite: true,

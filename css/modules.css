@@ -337,7 +337,7 @@
 }
 
 .paragraph-documents {
-  background: url("../img/bg_corporate.jpg") no-repeat center center;
+  background: url("../img/bg_corporate-min.jpg") no-repeat center center;
   background-size: cover;
   padding-top: clamp(30px, 7vw, 100px);
   padding-bottom: clamp(30px, 6vw, 80px);
