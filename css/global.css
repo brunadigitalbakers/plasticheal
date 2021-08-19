@@ -260,6 +260,26 @@ main ul li:before {
   padding-right: 30px;
 }
 
+#footer .founded {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#footer .founded img {
+  max-width: 100%;
+  height: auto;
+}
+
+#footer .founded p {
+  padding-left: 10px;
+  font-size: 14px;
+  padding-top: 0;
+}
+
 .basic-page #header {
   background: url("../img/fons.jpg") no-repeat center center;
   background-size: cover;

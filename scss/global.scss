@@ -234,6 +234,19 @@ main ul{
     padding-top:50px;
     padding-right:30px;
   }
+  .founded{
+    display:flex;
+    align-items: flex-start;
+    img{
+      max-width:100%;
+      height:auto;
+    }
+    p{
+      padding-left:10px;
+      font-size:14px;
+      padding-top:0;
+    }
+  }
 }
 
 .basic-page{

@@ -1,4 +1,14 @@
 @import 'vars';
+
+@media screen and (max-width:992px){
+  #footer{
+    background: $black;
+    .col-newsletter{
+      padding-left:15px;
+      padding-bottom:40px;
+    }
+  }
+}
 @media screen and (max-width:767px){
   body, html{
     font-size:18px;
@@ -20,7 +30,7 @@
     }
   }
   #footer{
-    background: $black;
+   
     .col-newsletter{
       padding-top:30px;
     }
@@ -52,10 +62,6 @@
   }
 
   #footer{
-    .col-newsletter{
-      padding-left:15px;
-      padding-bottom:40px;
-    }
     .xxss{
       padding-top:10px;
     }
