@@ -267,6 +267,7 @@ main ul li:before {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  padding-top: 20px;
 }
 
 #footer .founded img {
